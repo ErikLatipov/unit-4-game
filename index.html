@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystall Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+   
+
+</head>
+
+<body>
+        <div class="container">
+
+            <div class="jumbotron" style="background-color: purple; color:white;">
+                <div class="container">   
+                <h1 class="text-center"><strong>Crystal Collector</strong></h1>
+                    
+            
+        </div>
+        </div>
+         <!--Instructions container-->
+        <div class="row">
+       
+        <div class="col-lg-12">
+        
+                <div class="panel panel-primary">
+                        <div class="panel-heading">
+                    <h3 class="panel-title text-center">Inctructions</h3>        
+
+                        </div>
+                        <div class="panel-body">
+<p><small>You will be given a random number at the start of the game. There are four crystals below.
+    By clicking on a crystal you will add a specific amount of points to your total score. You
+    win the game by matching your total score to random number, you lose the game if your 
+    total score goes above the random number. The value of each crystal is hidden from you
+    until you click on it. Each time when the game starts, the game will change the values
+    of each crysta. 
+</small>
+</p>
+                        </div>
+
+                      </div>
+        </div>
+
+</div>
+<!--Crystalls lost win container-->
+<div class="row">
+
+</div>
+<div class="col-lg-3">
+        <div class="panel panel-primary">
+                <div class="panel-heading">
+            <h3 class="panel-title text-center">Target score</h3>        
+
+                </div>
+                <div class="panel-body">
+                  <h3 class="text-center" id="targetScore"></h3>      
+
+</div>
+</div>
+</div>
+
+<div class="col-lg-3">
+        <div class="panel panel-primary">
+                <div class="panel-heading">
+            <h3 class="panel-title text-center">Your score</h3>        
+
+                </div>
+                <div class="panel-body">
+                  <h3 class="text-center" id="yourScore"></h3>      
+
+</div>
+
+
+</div>
+</div>
+
+<div class="col-lg-6">
+        <div class="panel panel-primary">
+                <div class="panel-heading">
+            <h3 class="panel-title text-center">Crystal Selection</h3>        
+
+                </div>
+                <div class="panel-body">
+                 <img src="assets\images\1.jpg" alt="" id="gold">     
+                 <img src="assets\images\2.png" alt="" id="blue">        
+                 <img src="assets\images\3.png" alt="" id="grey">    
+                 <img src="assets\images\4.jpg" alt="" id="green">        
+
+               </div>
+
+
+</div>
+</div>
+                <!--Counters Row-->
+<div class="row"> <!--Win Count-->
+    <div class="col-lg-6">
+            <div class="panel panel-primary">
+                    <div class="panel-heading">
+                <h3 class="panel-title text-center">Win Count</h3>        
+    
+                    </div>
+                    <div class="panel-body">
+                      <h3 class="text-center" id="winCount">0</h3>  
+    
+    
+                    </div>
+                </div>
+            </div>
+            <!--Loss Count-->
+    <div class="col-lg-6 ">
+            <div class="panel panel-primary">
+                    <div class="panel-heading">
+                <h3 class="panel-title text-center">Loss Count</h3>        
+    
+                    </div>
+                    <div class="panel-body">
+                      <h3 class="text-center" id="lossCount">0</h3>  
+    </div>   
+</div>
+
+
+</div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+<script src="assets\javascript\logic.js">
+</script>    
+</body>
+</html>
